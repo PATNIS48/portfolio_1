@@ -1,0 +1,67 @@
+#game-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(218, 231, 255);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+body {
+    background-image: url(pixel.jpg);
+}
+
+fieldset {
+    background-color: rgba(173, 247, 243, 0.705);
+    color: rgb(255, 100, 126);
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+}
+
+legend {
+    color: rgb(252, 159, 255);
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Prompt', sans-serif;
+}
+
+div {
+    color: rgb(255, 253, 147);
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Prompt', sans-serif;
+}
+
+button {
+    color: rgb(14, 255, 66);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+}
